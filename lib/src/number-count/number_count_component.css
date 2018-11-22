@@ -1,0 +1,38 @@
+.container {
+  transition: 1.6s all;
+  opacity: 1;
+}
+
+.container.bombing {
+  transform: scale(5);
+  opacity: 0;
+}
+
+.ranger {
+  font-size: 24vh;
+  line-height: 50vh;
+}
+
+.number-input {
+  border: none;
+  outline: none;
+  font-size: 16vh;
+  line-height: 24vh;
+  border-bottom: 1vh lightgray dashed;
+  color: white;
+  text-align: center;
+  width: 50vw;
+  background: #FF4C19;
+  transition: all 0.3s;
+}
+
+.number-input:hover {
+  border-bottom-color: white;
+}
+
+.ope-area {
+  height: 34vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

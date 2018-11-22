@@ -1,0 +1,15 @@
+<div class="container" [class.bombing]="bombing">
+  <div class="ranger">
+      (
+      <dynamic-number [number]="start"></dynamic-number>
+      ,&nbsp;
+      <dynamic-number [number]="end"></dynamic-number>
+      )
+    </div>
+
+    <input #numberInput class="number-input" type="string" [(ngModel)]="numberText" (keyup.enter)="goto">
+
+    <div class="ope-area">
+      <button class="sc-btn" (click)="reset">Reset</button>
+    </div>
+</div>

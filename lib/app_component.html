@@ -1,0 +1,11 @@
+<div [ngSwitch]="step">
+  <starter *ngSwitchCase="'starter'"
+    (next)="step = 'counter'"></starter>
+  <number-count *ngSwitchCase="'counter'"
+    (bomb)="onBomb($event)"></number-count>
+  <bombing *ngSwitchCase="'bombing'"
+    [times]="times"
+    [number]="number"
+    (next)="step = 'counter'"
+    (home)="gotoHome()"></bombing>
+</div>

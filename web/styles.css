@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Material+Icons);
+
+body {
+  background: #FF4C19;
+  color: white;
+  text-align: center;
+}
+
+* {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sc-btn {
+  font-size: 2vh;
+  background: white;
+  color: #FF4C19;
+  outline: none;
+  border: none;
+  border-radius: 1000px;
+  padding: 2vh 4vh;
+}
+
+.sc-btn + .sc-btn {
+  margin-left: 4vw;
+}
