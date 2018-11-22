@@ -1,7 +1,5 @@
-# number_bomb
+# 数字炸弹
 
-A web app that uses [AngularDart](https://webdev.dartlang.org/angular) and
-[AngularDart Components](https://webdev.dartlang.org/components).
+使用 Dart Web 和 Angular 开发，非常简单的小游戏，可以用于培训或者团建的时候活跃气氛使用。
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+自带音效，可以试试哦~
